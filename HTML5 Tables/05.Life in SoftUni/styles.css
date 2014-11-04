@@ -1,0 +1,93 @@
+body{
+    font: 36px verdana;
+}
+
+table{
+    border: 1px solid black;
+    width: 40%;
+}
+
+table tr, table th, table td{
+    border: 1px solid black;
+}
+
+table th{
+    font: bold 165% verdana;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+}
+
+table table{
+    width: 90%;
+    margin-left: 5%;
+}
+
+table table td{
+    font: 40% verdana;
+    padding: 18% 10% 18% 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.leftTop{
+    font: normal 70% verdana;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    padding-bottom: 20%;
+}
+
+.rightTop{
+    font: normal 70% verdana;
+    text-align: right;
+    vertical-align: top;
+    width: 50%;
+    padding-bottom: 20%;
+}
+
+.centralTop{
+    font: normal 70% verdana;
+    text-align: center;
+    vertical-align: top;
+    width: 25%;
+    padding-bottom: 20%;
+}
+
+.leftMiddle{
+    font: normal 70% verdana;
+    text-align: left;
+    vertical-align: middle;
+    width: 25%;
+}
+
+.rightMiddle{
+    font: bold 90% verdana;
+    text-align: right;
+    vertical-align: middle;
+    width: 25%;
+    padding: 10% 2% 10% 0;
+}
+
+.centralBottom{
+    font: normal 70% verdana;
+    text-align: center;
+    vertical-align: bottom;
+    width: 25%;
+}
+
+.rightBottom{
+    font: normal 70% verdana;
+    text-align: right;
+    vertical-align: bottom;
+    width: 25%;
+    padding-top: 20%;
+}
+
+.leftBottom{
+    font: normal 70% verdana;
+    text-align: left;
+    vertical-align: bottom;
+    width: 25%;
+    padding-top: 20%;
+}
+

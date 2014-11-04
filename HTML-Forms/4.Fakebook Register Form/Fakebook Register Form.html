@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8">
+    <title>Fakebook Register Form</title>
+</head>
+<body>
+<form action="" method="POST">
+    <header>
+        <p id="head">fakebook<span>&#174;</span></p>
+        <p id="legendHeading">Registration</p>
+        <p id="legendSubHeading">It is safe and it will always be!</p>
+    </header>
+
+    <fieldset class="left">
+        <legend>None Important Information</legend>
+        <input type="text" name="fName" tabindex="1" title="Can only contain letters" placeholder="First Name" pattern="[A-z]+"/>
+        <input type="text" name="lName" tabindex="2" title="Can only contain letters" placeholder="Last Name" pattern="[A-z]+"/>
+        <input type="email" name="email" tabindex="3" title="Email is required" placeholder="Your Email" required />
+        <input type="tel" name="mobile" tabindex="4" placeholder="Phone Number">
+        <input type="password" name="pass" tabindex="5" placeholder="Your Password">
+        <input type="text" name="website" tabindex="6" placeholder="Website">
+
+        <label for="birthday">Birthday</label>
+        <input type="datetime-local" id="birthday" name="b-day" tabindex="7">
+
+        <input type="radio" name="gender" id="female" tabindex="8">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="male" tabindex="9">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="other" tabindex="10">
+        <label for="other">Other</label>
+    </fieldset>
+
+    <fieldset class="right">
+        <legend>None Important Information<span>&#42;</span>required</legend>
+        <select name="country" tabindex="11">
+            <option>Country</option>
+            <option value="bulgaria">Bulgaria</option>
+            <option value="belgium">Belgium</option>
+            <option value="serbia">Serbia</option>
+            <option value="germany">Germany</option>
+            <option value="spain">Spain</option>
+            <option value="netherlands">Netherlands</option>
+        </select>
+        <input type="text" name="village" tabindex="12" placeholder="Village" pattern="[A-z ]+">
+        <input type="text" name="distinct" tabindex="13" placeholder="Distinct" required>
+        <input type="text" name="nr" tabindex="14" placeholder="Nr" required>
+        <input type="text" name="floor" tabindex="15" placeholder="Floor" required>
+        <input type="text" name="ap" tabindex="16" placeholder="Ap Nr" required>
+        <input type="text" name="street" tabindex="17" placeholder="Street" required>
+
+        <label for="doorColor">Door Color</label>
+        <input type="color" value="#FF00FF" id="doorColor" name="color" tabindex="18">
+        <input type="text" name="water" tabindex="19" placeholder="Water Meter Nr" required>
+
+        <select name="aunt panties" tabindex="20">
+            <option>Aunt Panties' Size</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+            <option value="xxxl">XXXL</option>
+            <option value="xxxxl">XXXXL</option>
+        </select>
+
+        <label for="personalInfo">More Personal Information</label>
+        <textarea id="personalInfo" name="info" tabindex="21" placeholder="Give Us More Information!!!"></textarea>
+    </fieldset>
+
+    <button class="clearBtn" tabindex="22">Clear FIx</button>
+    <button class="regBtn" tabindex="23">Register</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+<body>
+<div class="mainWrapper">
+    <div class="heading">Step 1: Your details</div>
+    <div class="rec">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="First and last name">
+    </div>
+    <div class="rec">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="Example@domain.com">
+    </div>
+    <div class="rec">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" placeholder="eg. +447500000000">
+    </div>
+
+    <div class="heading">Step 1: Delivery address</div>
+    <div class="rec">
+        <label for="address">Address</label>
+        <textarea name="address" id="address"></textarea>
+    </div>
+    <div class="rec">
+        <label for="post">Post code</label>
+        <input type="text" name="post" id="post" placeholder="First and last name">
+    </div>
+    <div class="rec">
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country" placeholder="First and last name">
+    </div>
+
+    <div class="heading">Step 1: Card details</div>
+    <div class="rec">
+        <div class="cards">
+            <div>Card type</div>
+            <input type="radio" name="card" id="visa" required>
+            <label for="visa" class="visaCard">VISA</label>
+            <input type="radio" name="card" id="amex" required>
+            <label for="amex" class="amexCard">AmEx</label>
+            <input type="radio" name="card" id="master" required>
+            <label for="master" class="masterCard">Mastercard</label>
+        </div>
+    </div>
+
+    <div class="rec">
+        <label for="cardNumber">Card number</label>
+        <input type="text" name="name" id="cardNumber">
+    </div>
+    <div class="rec">
+        <label for="securityCode">Security code</label>
+        <input type="text" name="email" id="securityCode">
+    </div>
+    <div class="rec">
+        <label for="nameCard">Name on card</label>
+        <input type="text" name="phone" id="nameCard" placeholder="exact name as on the card">
+    </div>
+    <input type="submit" name="btn" value="BUY IT!">
+</div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+form{
+    margin: -.7% auto;
+    padding-bottom: 7%;
+    width: 69%;
+    background: #3B5997;
+    font: 16px Tahoma;
+}
+
+fieldset{
+    border-color: white;
+    border-radius: 10px;
+}
+
+/*Start of header*/
+
+#head{
+    font: bold 7em Tahoma;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#head span{
+    font: .15em Tahoma;
+}
+
+#head span:before{
+    content: " ";
+}
+
+#legendHeading{
+    font: bold 2em Tahoma;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#legendSubHeading{
+    font: 1.1em Tahoma;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+/*End of heading*/
+
+
+/*Start of left fieldset*/
+
+.left{
+    display: inline-block;
+    float: left;
+    width: 37%;
+    margin-left: 2%;
+}
+
+.left legend{
+    text-align: center;
+    color: white;
+}
+
+.left input[type="datetime-local"]{
+    display: block;
+    height: 25px;
+}
+
+label[for=birthday]{
+    margin-bottom: 2%;
+    display: block;
+}
+
+.left input[type="text"], .left input[type="tel"], .left input[type="email"], .left input[type="password"]{
+    width: 45.5%;
+    height: 25px;
+    margin: 1% 2% 2% 0;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1%;
+}
+
+
+input[type="radio"]{
+    width: 4%;
+    margin-top: 3%;
+    margin-bottom: 24%;
+}
+
+/*End of left fieldset*/
+
+
+/*Start of right fieldset*/
+
+.right{
+    display: inline-block;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.right legend{
+    color: white;
+    text-align: center;
+}
+
+.right legend span::before{
+    content: " ";
+}
+
+.right input[type="text"], .right input[type="tel"], .right input[type="email"],
+.right input[type="password"], .right input[type="color"]{
+    width: 30%;
+    height: 25px;
+    margin: 1% 1% 1% 0;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1%;
+}
+
+input[type="color"]{
+    background: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.right select{
+    width: 30.5%;
+    height: 25px;
+    margin: 1% 1.5% 1% 0;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1%;
+}
+
+.right label{
+    display: block;
+    margin-top: 1%;
+}
+
+textarea{
+    width: 100%;
+    height: 70px;
+}
+
+/*End of right fieldset*/
+
+
+label{
+    color: white;
+    font-size: .9em;
+}
+
+.clearBtn{
+    float: left;
+    clear: left;
+    width: 40%;
+    margin: 2% 0 2% 2%;
+    padding: 2% 0;
+    border: none;
+    border-radius: 8px;
+    font: 1.2em Tahoma;
+    color: #3B5997;
+}
+
+.regBtn{
+    float: right;
+    clear: right;
+    width: 53.2%;
+    margin: 2% 2.5% 2% 2%;
+    padding: 1.44% 0;
+    border: none;
+    border-radius: 8px;
+    font: 1.7em Tahoma;
+    color: #3B5997;
+}

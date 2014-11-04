@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8">
+    <title>Website Footer</title>
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <footer>
+        <section id="buttons">
+            <button onclick="window.open('https://softuni.bg/apply')">Apply Now</button>
+            <button onclick="window.open('https://softuni.bg/trainings/fasttracks')">Fast track courses</button>
+        </section>
+
+        <section id="about">
+            <header>
+                <h1>ABOUT THE UNIVERSITY</h1>
+            </header>
+            <ul>
+                <li><a href="https://softuni.bg/about">About</a></li>
+                <li><a href="https://softuni.bg/professions">Professions</a></li>
+                <li><a href="https://softuni.bg/plans">Plans</a></li>
+                <li><a href="https://softuni.bg/errors/pagenotfound">Partner universities</a></li>
+                <li><a href="https://softuni.bg/trainers">Trainers</a></li>
+                <li><a href="https://softuni.bg/errors/pagenotfound">Dorms</a></li>
+                <li><a href="https://softuni.bg/apply">Apply</a></li>
+            </ul>
+        </section>
+
+        <section id="friends">
+            <header>
+                <h1>НАШИТЕ ПРИЯТЕЛИ</h1>
+            </header>
+            <ul>
+                <li><a href="http://www.nakov.com/">Svetlin Nkov blog</a></li>
+                <li><a href="http://www.introprogramming.info/">C# book</a></li>
+            </ul>
+        </section>
+
+        <section id="learning-system">
+            <header>
+                <h1>SOFTWARE UNIVERSITY LEARNING SYSTEM - 1.0.5287</h1>
+            </header>
+            <ul>
+                <li><p><span>&copy;</span>2013-2014 - Software University. All Rights Reserved</p></li>
+            </ul>
+            <ul id="social">
+                <li><a href="https://twitter.com/softunibg"><img src="imgs/twitter.png" alt="twitter logo"/></a></li>
+                <li><a href="https://www.facebook.com/SoftwareUniversity"><img src="imgs/facebook.png" alt="facebook logo"/></a></li>
+                <li><a href="https://plus.google.com/+SoftuniBg"><img src="imgs/googleplus.png" alt="google plus logo"/></a></li>
+            </ul>
+        </section>
+
+        <section id="facebook-box">
+            <div class="fb-like-box" data-href="https://www.facebook.com/SoftwareUniversity" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        </section>
+    </footer>
+</body>
+</html>

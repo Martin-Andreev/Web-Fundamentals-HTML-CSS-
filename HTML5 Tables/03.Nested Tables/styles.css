@@ -1,0 +1,30 @@
+body{
+    font: 12px verdana;
+}
+
+table{
+    border: 1px solid black;
+    width: 40%;
+}
+
+table tr, table th, table td{
+    border: 1px solid black;
+}
+
+img{
+   padding: 6% 3% 6% 3%;
+}
+
+table table{
+    width: 95%;
+}
+
+table table td{
+    text-align: left;
+    padding: 6% 0 6% 2%;
+    font: normal 4.6em verdana;
+}
+
+table table{
+    margin-left: 2.5%;
+}

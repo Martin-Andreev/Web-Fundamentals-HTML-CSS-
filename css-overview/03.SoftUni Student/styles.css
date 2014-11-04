@@ -1,0 +1,84 @@
+.face{
+    margin: 7% auto;
+    width: 700px;
+    height: 700px;
+    background: yellow;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+.leftEye{
+    width: 150px;
+    height: 150px;
+    background: #ffffff;
+    border: 3px solid black;
+    border-radius: 100%;
+    margin: 140px 0px 0px 120px;
+    float: left;
+}
+
+.leftDot{
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 100%;
+    margin: 85px 0px 0px 85px;
+}
+
+.rightEye{
+    width: 150px;
+    height: 150px;
+    background: #ffffff;
+    border: 3px solid black;
+    border-radius: 100%;
+    margin: 140px 120px 0px 0px;
+    float: right;
+}
+
+.rightDot{
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 100%;
+    margin: 0px 0px;
+}
+
+.nose{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 3px solid black;
+    border-radius: 100%;
+    margin: 43% auto;
+}
+
+.mouth{
+    width: 350px;
+    height: 120px;
+    background: #ffffff;
+    border: 3px solid black;
+    border-radius: 100px;
+    margin: -270px 0px 0px 175px;
+}
+
+.leftTooth{
+    width: 50px;
+    height: 60px;
+    background: #ffffff;
+    border: 3px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: -3px 0px 0px 120px;
+    float: left;
+}
+
+.rightTooth{
+    width: 50px;
+    height: 60px;
+    background: #ffffff;
+    border: 3px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: -3px 118px 0px 0px;
+    float: right;
+}

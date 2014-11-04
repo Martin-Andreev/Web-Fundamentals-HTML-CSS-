@@ -1,0 +1,50 @@
+.wrapper{
+    background-color: rgb(255, 192, 203);
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 10px;
+    font: 14px Tahoma, sans-serif;
+}
+
+h2{
+    font-weight: normal;
+}
+
+article{
+    display: inline-block;
+    width: 31%;
+    margin: -2% 0 3% 2%;
+    vertical-align: top;
+}
+
+header{
+    display: block;
+    text-align: center;
+    padding-top: 1%;
+}
+
+video{
+    width: 110%;
+    height: 250px;
+}
+
+#profile-info{
+    margin-top: -4%;
+    font-size: 1.4em;
+}
+
+#profile-info p{
+    margin-bottom: 0;
+}
+
+meter{
+    width: 55%;
+}
+
+audio, video, figure{
+    margin-left: 0;
+}
+
+figure{
+    margin-top: 0;
+}

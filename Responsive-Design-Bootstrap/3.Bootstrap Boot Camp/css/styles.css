@@ -1,0 +1,82 @@
+header > .navbar > .container > .nav{
+    padding-left: 25%;
+}
+
+header > .navbar > .container > .navbar-brand:hover{
+    color: #ffffff;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.navbar {
+    background: #0a0a0a;
+    color: #000;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+     background: #72c6ee;
+     color: #ffffff;
+ }
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.container .jumbotron {
+    float: left;
+    display: inline-block;
+    width: 65%;
+}
+
+.containerSide {
+    display: inline-block;
+    float: right;
+    width: 30%;
+    padding: 0 1%;
+}
+
+.nav .nav-tabs .nav-stacked {
+    padding: 1%;
+    border: 1px solid #ddd;
+}
+
+.nav-tabs > li > a {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #000000;
+}
+
+.nav-tabs > li a:hover {
+    background: #72c6ee;
+}
+
+.thumbnails {
+    padding: 1%;
+}
+
+.thumbnail {
+    border: none;
+    margin-bottom: 0;
+}
+
+.span4 {
+    display: inline-block;
+    width: 21.5%;
+    margin-top: 1%;
+}
+
+.btn {
+    border: 1px solid lightgray;
+    color: #000;
+}

@@ -1,0 +1,103 @@
+form{
+    font: 14px Tahoma, sans-serif;
+    width: 57%;
+    margin: 0 auto;
+    margin-top: -.7%;
+    padding: 1%;
+}
+
+.clearFix::after{
+    content: "";
+    clear: both;
+    width: 0;
+    height: 0;
+    display: block;
+}
+
+form>header{
+    font: bold 2em Tahoma;
+    margin: -2% 0% -2% 1%;
+    color: #2a425a;
+}
+
+section{
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+
+/*Start of buttons*/
+button{
+    width: 31.5%;
+    margin: 1% .5%;
+    background: white;
+    border: 2px solid #eaf7ff;
+    border-radius: 10px;
+}
+
+button:hover{
+    border-color: #2a425a;
+}
+
+.heading{
+    font: bold 1.2em Tahoma;
+    margin: 5% 0% -5% 0%;
+    text-align: left;
+}
+
+.info{
+    font: 1.2em Tahoma;
+    text-align: left;
+    margin: 5% 0% 2% 0%;
+}
+
+.price{
+    width: 60%;
+    margin: 1% -4% -1% 0;
+    background:  #2a425a;
+    color: white;
+    border-top-left-radius: 10px;
+    height: 35px;
+    text-align: center;
+    float: right;
+}
+
+/*End of buttons*/
+
+
+/*Start of aside*/
+
+aside{
+    margin-top: -8%;
+    width: 24%;
+    float: right;
+    background: #f5fdff;
+    border: 2px solid #eaf7ff;
+}
+
+aside div{
+    display: inline-block;
+    width: 100%;
+}
+
+.range header{
+    text-align: center;
+    font: 1.2em Tahoma;
+}
+
+.range .min{
+    float: left;
+    margin-left: 2%;
+}
+
+.range .max{
+    float: right;
+    margin-right: 2%;
+}
+
+input[type="range"]{
+    display: inline-block;
+    width: 100%;
+}
+
+/*End of aside*/

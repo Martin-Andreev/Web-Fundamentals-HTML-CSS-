@@ -1,0 +1,121 @@
+footer{
+    background: #234465;
+    width: 100%;
+    font: 16px 'PT Sans', Tahoma, sans-serif;
+    margin-top: -1%;
+}
+
+section{
+    vertical-align: top;
+    margin-top: 3.8%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+h1{
+    font: bold .9em Tahoma;
+    color: #FF9C00;
+    margin-bottom: -3%;
+}
+
+li a, p{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #FF9C00;
+}
+
+li{
+    list-style: none;
+    padding: 1.5% 0;
+}
+
+p{
+    margin-top: -1%;
+    margin-bottom: -3%;
+}
+
+span{
+    margin-right: 2%;
+}
+/*Start of buttons*/
+
+#buttons{
+    vertical-align: top;
+    width: 11%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+#buttons button{
+    display: block;
+    margin-bottom: 7%;
+}
+
+button{
+    border: 2px solid #FF9C00;
+    width: 100%;
+    padding: 8% 0;
+    background: none;
+    color: white;
+}
+
+button:hover{
+    background: #FF9C00;
+}
+
+/*End of buttons*/
+
+
+/*Start of about*/
+
+#about{
+    width: 14%;
+}
+
+#about ul{
+    margin-left: -21%;
+}
+/*End of about*/
+
+/*Start of friends*/
+
+#friends{
+    width: 12%;
+}
+
+#friends ul{
+    margin-left: -24%;
+}
+/*End of friends*/
+
+/*Start of learning system*/
+
+#learning-system{
+    width: 20%;
+}
+
+#learning-system ul{
+    margin-left: -15%;
+}
+
+#social{
+    margin-left: -16% !important;
+}
+
+#social li{
+    display: inline-block;
+    margin: 0 1%;
+}
+/*End of learning system*/
+
+
+/*Start of facebook-box*/
+
+#facebook-box{
+    background: #E9ECEF;
+}
+
+/*End of facebook-box*/

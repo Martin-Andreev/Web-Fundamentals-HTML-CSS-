@@ -1,0 +1,97 @@
+body{
+    font: italic 14px Tahoma, sans-serif;
+}
+
+.mainWrapper{
+    width: 42%;
+    margin: 0 auto;
+    background: #FFC0CB;
+}
+
+fieldset{
+    padding-left: 0;
+    width: 46%;
+    display: inline-block;
+    font: italic 14px Tahoma;
+    border: none;
+}
+
+.heading{
+    font: italic bold 3em Tahoma;
+    text-align: center;
+    padding-top: 2%;
+}
+
+select{
+    width: 100%;
+    height: 23px;
+}
+
+label{
+    display: block;
+}
+
+/*Start of left fieldset*/
+
+.left{
+    margin-left: 2%;
+    float: left;
+}
+
+.time{
+    margin-right: 22%;
+    width: 105%;
+}
+
+.left select{
+    margin-bottom: 12%;
+}
+
+.time label{
+    display: inline-block;
+    margin-left: 22%;
+}
+
+.time label:first-of-type{
+    margin-left: 0;
+}
+/*End of left fieldset*/
+
+
+
+/*Input buttons*/
+input[type="date"]{
+    width: 100%;
+    height: 23px;
+}
+
+input[type="checkbox"]{
+   float: left;
+}
+
+input[type="time"]{
+    width: 47%;
+    height: 23px;
+}
+
+input[type="number"]{
+    width: 30%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 35px;
+    font: 1.3em Tahoma;
+}
+
+input, select, label{
+    margin-bottom: 2%;
+}
+
+
+
+
+
+label[for=time-interval]{
+    margin: -5% 0;
+}

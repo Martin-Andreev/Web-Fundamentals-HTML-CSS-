@@ -1,0 +1,13 @@
+body{
+    background-color: #a0fff0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
+
+dt{
+    font-style: italic;
+}

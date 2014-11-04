@@ -1,0 +1,208 @@
+body{
+    font: 14px Tahoma, sans-serif;
+}
+
+header, aside#left, section{
+    margin-left: 2%;
+    width: 95%;
+}
+
+#main-header{
+    border-bottom: 1px solid gray;
+}
+
+li{
+    list-style: none;
+}
+
+header p{
+    font-size: 1.7em;
+    margin-left: 3%;
+    display: block;
+    color: black;
+    margin-bottom: 3%;
+}
+
+header nav{
+    display: inline-block;
+    width: 70%;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 5%;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header input{
+    float: right;
+    width: 15%;
+    height: 23px;
+    background-color: #ebebeb;
+}
+
+/*left aside*/
+
+#left{
+    border-top: 1px solid gray;
+    display: inline-block;
+    width: 13% !important;
+    margin-top: 6%;
+    vertical-align: top;
+}
+
+#left a{
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#left ul{
+    padding-left: 4%;
+}
+
+#left li{
+    margin-bottom: 1%;
+}
+
+/*end of left aside*/
+
+/*section*/
+
+section{
+    width: 65%;
+    display: inline-block;
+    padding-left: 0;
+    margin-left: 3%;
+    border-bottom: 1px solid gray;
+}
+
+section header{
+    margin-left: 0;
+}
+
+section header h2{
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+section header span{
+    color: darkgrey;
+}
+
+section header span a{
+    color: darkgray;
+    font-weight: bold;
+    font-size: .8em;
+    margin-right: .5%;
+}
+
+section time{
+    margin-right: .5%;
+}
+
+article footer a{
+    text-decoration: none;
+}
+
+/*end of section*/
+
+/*right aside*/
+
+#right{
+    width: 13%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+}
+
+#right label{
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2%;
+    display: block;
+}
+
+#right select{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: block;
+}
+
+#right p{
+    color: gray;
+    padding-bottom: 2%;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+/*end of right aside*/
+
+#previous{
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+#twitter{
+    width: 100%;
+    background-color: #c6c6c6;
+}
+
+
+#twitter p{
+    margin-left: 4%;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+/*footer*/
+
+#main-footer{
+    background-color: black;
+}
+
+#main-footer a, h3, p{
+    color: white;
+}
+
+#main-footer article{
+    width: 18%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: .6%;
+    margin-top: 1%;
+}
+
+#main-footer article:first-of-type{
+    vertical-align: top;
+    margin-top: -.4%;
+    margin-left: 2%;
+}
+
+#main-footer nav{
+    vertical-align: top;
+}
+
+#main-footer nav ul{
+    margin-left: -11% !important;
+}
+
+#main-footer nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+#main-footer header{
+    color: gray;
+}
+
+#main-footer article a{
+    color: gray;
+    text-decoration: none;
+}
+/*end of footer*/

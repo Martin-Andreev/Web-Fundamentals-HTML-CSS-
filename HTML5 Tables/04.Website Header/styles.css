@@ -1,0 +1,81 @@
+body{
+    font: 16px Tahoma;
+}
+
+.mainWrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+    background: rgb(35, 68, 101);
+    color: white;
+}
+
+img.logo{
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+tr:first-of-type {
+   height: 50px;
+}
+
+tr:first-of-type td:nth-of-type(2){
+    padding-left: 40%;
+    width: 51%;
+}
+
+tr td img.bell{
+    margin-top: 8%;
+    float: left;
+}
+
+p{
+    padding-top: 2%;
+    float: right;
+    font: .8em Tahoma;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+
+div input[type='text']{
+    float: left;
+    margin-top: 2.2%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 83%;
+}
+
+div input[type='image']{
+    float: right;
+    width: 10%;
+    margin-right: 5%;
+    margin-top: .7%;
+    height: 28px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 10px 80px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font: .8em Tahoma;
+}
+
+tr:last-of-type td{
+    width: 75%;
+}

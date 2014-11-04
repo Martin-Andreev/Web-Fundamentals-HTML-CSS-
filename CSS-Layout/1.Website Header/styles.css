@@ -1,0 +1,183 @@
+header{
+    background: #234465;
+    width: 100%;
+    font: 14px 'PT Sans', Tahoma, sans-serif;
+    margin-top: -1%;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.logo{
+    width: 15%;
+    margin: 0 2%;
+    display: inline-block;
+    float: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Start of menu up*/
+.menu-up{
+    display: inline-block;
+    width: 40%;
+    margin-left: 40%;
+}
+
+.user{
+    display: inline-block;
+    width: 26%;
+}
+
+.user li{
+    display: inline-block;
+}
+
+.notification li a{
+    display: inline-block;
+}
+
+.notification{
+    margin-right: 20%;
+}
+
+.notification a{
+    color: orange;
+    font-weight: bold;
+}
+
+.notification a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.notification a img{
+    vertical-align: middle;
+}
+
+.user-panel{
+    display: inline-block;
+}
+
+.user-panel a{
+    font-weight: bold;
+}
+
+.user-panel > a{
+    padding-bottom: 65%;
+    text-decoration: underline;
+}
+
+.user-panel:hover .dropdown{
+    display: block;
+}
+
+.triangle{
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.blue{
+    color: #428BCA;
+    font-weight: bold;
+    border: none;
+}
+
+.blue:hover{
+    color: white;
+}
+
+form{
+    display: inline-block;
+    width: 50%;
+}
+
+.search-input{
+    width: 87%;
+    height: 28px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.search-button{
+    float: right;
+    width: 32px;
+    height: 30px;
+    position: absolute;
+    border: none;
+    border-left: 1px solid gray;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url("imgs/search.png");
+}
+
+/*End of menu up*/
+
+
+/*Start of drop down menu*/
+
+.dropdown{
+    display: none;
+    position: absolute;
+    padding: 5px 0;
+    margin-top: .7%;
+    width: 22%;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 5px;
+    background: #234465;
+}
+
+.dropdown li:first-of-type{
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown li{
+    display: block;
+    line-height: 35px;
+    padding-left: 3%;
+    border-top: 1px solid gray;
+}
+
+.dropdown li:hover{
+    background: #FF9C00;
+}
+
+.dropdown li a{
+    font-weight: normal;
+    font: 1em Tahoma;
+}
+
+/*End of drop down menu*/
+
+/*Start of nav*/
+
+nav{
+    display: inline-block;
+    width: 71%;
+    margin-left: 5%;
+    margin-top: -.5%;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 2%;
+    padding-bottom: 2%;
+}
+
+nav ul li:hover .dropdown{
+    display: block;
+}
+/*End of nav*/

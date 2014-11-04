@@ -1,0 +1,39 @@
+section{
+    width: 43%;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: black;
+}
+
+header{
+    color: rgb(242, 193, 6);
+    text-align: center;
+}
+
+h1{
+    padding-top: 3%;
+    font-size: 36px;
+}
+
+iframe{
+    display: inline-block;
+    margin-left: 5%;
+    border-color: rgb(242, 193, 6);
+    width: 200px;
+    height: 150px;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 28px;
+}
+
+#frames{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}

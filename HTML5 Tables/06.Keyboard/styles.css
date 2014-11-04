@@ -1,0 +1,68 @@
+body{
+    font: 36px verdana;
+}
+
+table{
+    border: 1px solid black;
+    width: 40%;
+}
+
+table tr, table th, table td{
+    border: 1px solid black;
+}
+
+table table tr, table table td{
+    border: none;
+}
+
+table table td{
+    font: 40% verdana;
+    padding: 0;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table table button{
+    width: 90%;
+    font: 40% verdana;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table tr td{
+    font: 40px verdana;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+}
+
+th button{
+    width: 98%;
+    padding: 5% 5% 5% 5%;
+    margin: 0.8% 0.8% 0.8% 0.8%;
+    color: blue;
+    font: bold 0.75em verdana;
+}
+
+td button{
+    width: 94%;
+    font: normal 0.55em verdana;
+    text-align: center;
+    vertical-align: middle;
+    color: blue;
+    padding: 42px 0 42px 0;
+    margin: 2% 2.8% 2% 2.8%;
+}
+
+td button.middleRight{
+    width: 97%;
+    font: normal 0.7em verdana;
+    text-align: right;
+    vertical-align: middle;
+    color: blue;
+    padding: 42px 5px 42px 0;
+    margin: 2.8% 1% 2.8% 1%;
+}
+

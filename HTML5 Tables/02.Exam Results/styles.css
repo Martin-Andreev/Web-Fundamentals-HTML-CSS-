@@ -1,0 +1,42 @@
+body{
+    font: 16px Tahoma;
+}
+
+table{
+    border: 1px solid black;
+    width: 33%;
+}
+
+thead tr th{
+    font-size: 1.6em;
+}
+
+table tr, table th, table td{
+    border: 1px solid black;
+}
+
+tbody tr td{
+
+    padding-left: 1%;
+}
+
+th.row1{
+    width: 10%;
+}
+
+th.row2{
+    width: 36%;
+}
+
+th.row3{
+    width: 36%;
+}
+
+th.row4{
+    width: 18%;
+}
+
+tfoot tr td{
+    text-align: right;
+    padding-right: 1.5%;
+}

@@ -1,0 +1,166 @@
+body{
+    font: 14px Arial, 'Lucida Sans Unicode';
+    background: black;
+}
+
+.wrapper{
+    width: 67.5%;
+    margin: 0 auto;
+    background: white;
+}
+
+/*header*/
+
+header{
+    width: 100%;
+}
+
+header p{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin: -5% 0 0 37%;
+}
+
+nav{
+    display: block;
+    /*background: #ECECEC;*/
+    background: linear-gradient(white, darkgray);
+    margin-top: -1.9%;
+}
+
+nav ul{
+    margin-left: -4%;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 1.2em 2em;
+    border: 1px solid white;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*end of header*/
+
+
+/*section*/
+aside{
+    margin-bottom: 4%;
+}
+
+section{
+    width: 62%;
+    display: inline-block;
+    float: left;
+    margin-right: 3%;
+    margin-left: 4%;
+
+}
+
+#welcome, #products{
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
+    padding: 1% 4%;
+}
+
+aside h2{
+    color: #94CE29;
+    font-size: 1.8em;
+}
+
+span{
+    font-weight: bold;
+}
+
+#products{
+    display: inline-block;
+}
+
+.inner-section img{
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.text{
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+
+.text a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+/*end of section*/
+
+/*aside*/
+
+#news, #message{
+    display: inline-block;
+    float: right;
+    margin-right: 6%;
+}
+
+#news, #message{
+    width: 25%;
+    background: #e2e2e2;
+}
+
+#news h1, #message h1{
+    color: #94CE29;
+    font-size: 1.8em;
+    margin-left: 7%;
+}
+
+#news div, #message div{
+    margin-left: 7%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#news span, #message span{
+    font-weight: normal;
+}
+
+#news a, #message a{
+    margin-top: 3%;
+}
+.link{
+    display: block;
+    color: #94CE29;
+    font-weight: bold;
+}
+
+/*end of aside*/
+
+/*footer*/
+footer{
+    display: flex;
+    width: 100%;
+    background: #94CE29;
+}
+
+footer p{
+    margin: 5% 0 5% 15%;
+    vertical-align: middle;
+}
+
+footer a{
+    color: black;
+}
+/*end of footer*/

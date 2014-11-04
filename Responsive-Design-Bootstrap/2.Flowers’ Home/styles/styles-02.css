@@ -1,0 +1,321 @@
+body {
+    background-image: url(../images/background-flowers.jpg);
+    font: 16px Tahoma, sans-serif;
+}
+
+#wrapper {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: -.6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*header*/
+
+#wrapper > header {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    text-align: right;
+    flex: 1 100%;
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+header > h1 > a {
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img {
+    width: 30%;
+    height: 10%;
+}
+
+header span {
+    font-size: 1.2em;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3.2%;
+}
+
+header ul li {
+    list-style: none;
+    border: 1px solid black;
+    background-color: rgb(235, 42, 123);
+    padding: 1% 0;
+    width: 100px;
+    text-align: center;
+    margin-right: 2%;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+/*end of header*/
+
+/*aside left*/
+
+.left {
+    width: 23%;
+    height: 300px;
+    order: 1;
+    margin-top: 3%;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.left ul {
+    margin-left: 5%;
+    padding: 1%;
+}
+
+.left ul li {
+    flex-direction: row;
+    list-style: none;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: .9em;
+}
+
+aside.left a img {
+    vertical-align: middle;
+}
+
+/*end of aside left*/
+
+/*aside right*/
+
+.right {
+    width: 22%;
+    height: 300px;
+    order: 3;
+    border: 1px solid black;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.right ul {
+    margin-left: 5%;
+    padding: 1%;
+    padding-top: 0;
+}
+
+.right ul li {
+    flex-direction: row;
+    list-style: none;
+}
+
+.right ul li p {
+    color: black;
+    font-size: .9em;
+}
+
+/*end of aside right*/
+
+/*section*/
+
+section {
+    order: 2;
+    width: 52%;
+    height: 220px;
+    margin-left: 1%;
+    margin-top: 3%;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+section article header h1 {
+    font-size: 1.7em;
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+section > article > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section > article > div > img {
+    width: 23%;
+    height: 15%;
+    margin: 1%;
+}
+
+/*end of section*/
+
+footer {
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+    align-self: flex-end;
+    width: 100%;
+    margin-top: 3%;
+    order: 5;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.3em;
+}
+
+footer a {
+    color: black;
+}
+
+@media screen and (min-width: 780px) and (max-width: 960px) {
+
+    #wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 779px) {
+
+    #wrapper {
+        width: 100%;
+    }
+
+    section, .left, .right, footer {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    header nav ul li {
+        width: 25%;
+    }
+
+    section {
+        order: 1;
+        height: 600px;
+    }
+
+    section > article > div > img {
+        width: 31%;
+        height: 15%;
+        margin: 1%;
+    }
+
+    .left {
+        order: 2;
+        height: 200px;
+    }
+
+    .left ul {
+        margin-left: 0;
+    }
+
+    .right {
+        order: 3;
+        height: 90px;
+    }
+
+    .right ul {
+        margin-left: 0;
+    }
+
+    footer {
+        order: 4
+    }
+}
+
+@media screen and (max-width: 639px) {
+    #wrapper {
+        width: 99%
+    }
+
+    header h1 a {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > h1 > a > img {
+        align-self: center;
+        width: 50%;
+        order: 1;
+    }
+
+    header > h1 > a > span {
+        order: 2;
+    }
+
+    header nav {
+        width: 95%;
+        margin-left: -5%;
+    }
+
+    header > nav > ul {
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > nav > ul > li {
+        width: 100%;
+        padding: .5%;
+        margin: 0;
+    }
+
+    header > nav > ul > li > a {
+        width: 100%;
+        padding: .5%;
+        margin: .5% 0;
+    }
+
+    section {
+        order: 1;
+        width: 100%;
+        height: 850px;
+    }
+
+    section > article > div > img {
+        width: 45%;
+        height: 15%;
+        margin: 1%;
+        margin-left: 3%;
+    }
+
+    .left {
+        order: 2;
+        height: 200px;
+        width: 100%;
+    }
+
+    .left ul {
+        margin-left: 0;
+    }
+
+    .right {
+        order: 3;
+        height: 90px;
+        width: 100%;
+    }
+
+    .right ul {
+        margin-left: 0;
+    }
+
+    footer {
+        order: 4
+    }
+}

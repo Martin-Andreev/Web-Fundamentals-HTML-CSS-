@@ -1,0 +1,89 @@
+.mainWrapper{
+    width: 50%;
+    margin: 0 auto;
+    border-left: 6px dashed red;
+    border-top: 6px dotted yellow;
+    border-right: 10px solid green;
+    border-bottom: 7px double blue;
+    font: 16px Tahoma, sans-serif;
+    box-shadow: 18px 20px 5px #525252;
+}
+
+.mainWrapper header div{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3%;
+    text-shadow: 5px 11px 15px gray;
+}
+
+.mainWrapper section{
+    width: 85%;
+    border: 3px solid red;
+    margin: 4% 8%;
+    border-radius: 100px;
+    box-shadow: 0 0 0 2px yellow, 0 0 0 4px green, 0 0 0 6px blue;
+}
+
+.text{
+    border: none;
+    text-align: center;
+    margin-top: 2%;
+    font: 1.4em Tahoma, sans-serif;
+    text-shadow: 10px 7px 15px gray;
+}
+
+.button{
+    margin: 0% 12%;
+}
+
+.button div{
+    background: rgb(229, 157, 26);
+    display: inline-block;
+    margin: 4% 1% 4% 1px;
+    padding: 0% 4% .3% 4%;
+    border-bottom: 3px solid #a77b00;
+    border-right: 3px solid #a77b00;;
+    border-top: 2px solid #e69200;
+    border-left: 3px solid #e69200;
+    font: 1.1em Tahoma, sans-serif;
+}
+
+.small{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    border: 3px dashed white;
+    top: 158px;
+    left: 875px;
+}
+
+.middle{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    border: 3px dashed white;
+    top: 111px;
+    left: 914px;
+}
+
+.big{
+    position: absolute;
+    width: 125px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    border: 3px dashed white;
+    top: 53px;
+    left: 977px;
+    color: white;
+    font: bold 1.3em Tahoma;
+    text-align: center;
+    padding-top: .5%;
+}
